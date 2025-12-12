@@ -11,6 +11,8 @@ const firebaseConfig = {
 };
 
 let app: FirebaseApp | undefined;
+// This check is important! It makes sure that you don't try to initialize the
+// app when the config is not present in the environment.
 if (firebaseConfig.apiKey) {
   app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 }
