@@ -27,6 +27,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   useEffect(() => {
     if (!auth) {
+      console.error("Firebase Auth has not been properly initialized.");
       setLoading(false);
       return;
     }
@@ -47,8 +48,10 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     try {
       await signInWithPopup(auth, provider);
       router.push('/account');
-    } catch (error) {
-      console.error('Error signing in with Google: ', error);
+    } catch (error: any) {
+      if (error.code !== 'auth/cancelled-popup-request') {
+        console.error('Error signing in with Google: ', error);
+      }
     }
   };
 
