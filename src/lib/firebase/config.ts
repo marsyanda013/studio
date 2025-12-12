@@ -1,5 +1,5 @@
-import { initializeApp, getApps, getApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
+import { initializeApp, getApps, getApp, type FirebaseApp } from 'firebase/app';
+import { getAuth, type Auth } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -10,12 +10,11 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
-let app;
+let app: FirebaseApp | undefined;
 if (firebaseConfig.apiKey) {
   app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 }
 
-const auth = getAuth(app);
+const auth: Auth | undefined = app ? getAuth(app) : undefined;
 
 export { app, auth };

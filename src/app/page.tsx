@@ -162,12 +162,12 @@ export default function Home() {
                   <CardHeader>
                     <Quote className="w-8 h-8 text-primary" />
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="flex-grow">
                     <p className="text-foreground mb-4 font-body italic">
                       "{testimonial.quote}"
                     </p>
                     <div className="flex items-center">
-                      <div className="ml-4">
+                      <div className="ml-0">
                         <p className="font-bold text-sm text-foreground">
                           - {testimonial.name}
                         </p>
