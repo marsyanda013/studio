@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A beautiful, serene salon interior",
+      "imageUrl": "https://images.unsplash.com/photo-1626383137804-ff908d2753a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc2NTUxNzk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salon interior"
+    },
+    {
+      "id": "service_haircut",
+      "description": "A stylish haircut in progress",
+      "imageUrl": "https://images.unsplash.com/photo-1590123375983-46f31745a14d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHlsaXNoJTIwaGFpcmN1dHxlbnwwfHx8fDE3NjU0MzYzNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stylish haircut"
+    },
+    {
+      "id": "service_coloring",
+      "description": "A vibrant hair coloring process",
+      "imageUrl": "https://images.unsplash.com/photo-1630777690337-07a3389e7ba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoYWlyJTIwY29sb3Jpbmd8ZW58MHx8fHwxNzY1NTE5MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair coloring"
+    },
+    {
+      "id": "service_styling",
+      "description": "Elegant hair styling for an event",
+      "imageUrl": "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYWlyJTIwc3R5bGluZ3xlbnwwfHx8fDE3NjU0NzUxMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair styling"
+    },
+    {
+      "id": "service_treatment",
+      "description": "A relaxing hair treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYWlyJTIwdHJlYXRtZW50fGVufDB8fHx8MTc2NTUxOTAzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair treatment"
+    },
+    {
+      "id": "service_manicure",
+      "description": "A perfect manicure being done",
+      "imageUrl": "https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW5pY3VyZXxlbnwwfHx8fDE3NjU1MTkwMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "manicure"
+    },
+    {
+      "id": "service_pedicure",
+      "description": "A relaxing pedicure spa",
+      "imageUrl": "https://images.unsplash.com/photo-1610992015836-7c249d75782d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZWRpY3VyZXxlbnwwfHx8fDE3NjUzOTQ4NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pedicure"
+    },
+    {
+      "id": "stylist_emily",
+      "description": "Portrait of Emily, a senior stylist",
+      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTQzNjIwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "stylist_jessica",
+      "description": "Portrait of Jessica, a color specialist",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY1NDczNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "stylist_michael",
+      "description": "Portrait of Michael, a hair artist",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU0ODExODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "stylist_sarah",
+      "description": "Portrait of Sarah, a nail technician",
+      "imageUrl": "https://images.unsplash.com/photo-1534413298607-48ba59e8a06d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGhhcHB5fGVufDB8fHx8MTc2NTQxMjkzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman happy"
+    },
+    {
+      "id": "stylist_david",
+      "description": "Portrait of David, a master barber",
+      "imageUrl": "https://images.unsplash.com/photo-1749664511269-0aa31a10c6dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzY1NDY1ODY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man professional"
+    },
+    {
+      "id": "stylist_olivia",
+      "description": "Portrait of Olivia, a junior stylist",
+      "imageUrl": "https://images.unsplash.com/photo-1667498235466-2ff4b9c8cb61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBmcmllbmRseXxlbnwwfHx8fDE3NjU0Njc4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman friendly"
+    }
+  ]
 }
